@@ -5,7 +5,7 @@ Piths é um software livre para ensino de Matemática Básica, desenvolvido pela
 **Principais ferramentas empregadas**
 * *HTML5* para a estrutura das páginas Web
 * *CSS3* — integrado com *Bootstrap* — para a estilização e responsividade
-* *JavaScript* para a implementação da lógica de cálculo
+* *JavaScript* para a implementação da lógica de programação
 
 **Atividades desenvolvidas**
 1. Soma com dinheiro
