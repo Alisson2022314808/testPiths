@@ -1,0 +1,48 @@
+#mensagem {
+    margin-bottom: 10px;
+    color: #ef1a1a;
+    text-align: center;
+    font-size: larger;
+}
+
+.card img {
+    max-width: 100% !important;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.mb-3 .btn {
+    margin: 6px;
+}
+
+@media (max-width: 425px) {
+    .card img {
+        width: 95%;
+    }
+    .mb-3 .btn {
+        display: block;
+        margin: 8px auto;
+        font-size: 1rem;
+        padding: 0.6rem 1rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .card img {
+        width: 92%;
+    }
+    .mb-3 .btn {
+        font-size: 0.95rem;
+        padding: 0.55rem 0.9rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .card img {
+        width: 88%;
+    }
+    .mb-3 .btn {
+        font-size: 0.9rem;
+        padding: 0.5rem 0.8rem;
+    }
+}
