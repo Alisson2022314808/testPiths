@@ -1,4 +1,4 @@
-# testPiths
+# Piths - Demonstração Beta
 **Descrição**: 
 Piths é um software livre para ensino de Matemática Básica, desenvolvido pela Prefeitura Municipal de Santo Augusto, sob coordenação voluntária do Professor Uianes Luiz Rockenbach Biondo. Tem como objetivo principal aprimorar o desenvolvimento da literacia matemática nos anos iniciais (1° ao 5° ano), especificamente: desenvolver as habilidades de Matemática da BNCC do Ensino Fundamental I por meio de jogos digitais e habilidades gamificadas; realizar a recomposição de aprendizagens; e ampliar os índices educacionais do município de Santo Augusto.
 
