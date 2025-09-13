@@ -12,6 +12,10 @@
     margin: 0 auto;
 }
 
+.mb-3 .btn {
+    margin: 6px;
+}
+
 @media (max-width: 425px) {
     .card img {
         width: 95%;
