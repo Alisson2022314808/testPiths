@@ -6,7 +6,7 @@ Piths é um software livre para ensino de Matemática Básica, desenvolvido pela
 * ampliar os índices educacionais do município de Santo Augusto.
 ### **Logotipo**
 Criado pela colega [Gabrieli Lais Zwirtes](https://www.instagram.com/gabrielilzwirtes), formada em TI pelo IFFar Santo Augusto, e atualmente cursando Direito na PUCRS.
-<img src="https://smesantoaugusto.site/piths/piths/assets/img/piths.png" width="150" alt="Logotipo do Piths" title="Piths" aria-label="Logotipo do Piths">
+<p align="center"><img src="https://smesantoaugusto.site/piths/piths/assets/img/piths.png" width="150" alt="Logotipo do Piths" title="Piths" aria-label="Logotipo do Piths"></p>
 
 ## **Principais ferramentas empregadas**
 * *HTML5* para a estrutura das páginas Web
