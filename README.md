@@ -11,14 +11,14 @@ Criado pela colega [Gabrieli Lais Zwirtes](https://www.instagram.com/gabrielilzw
 * *JavaScript* para a implementação da lógica de programação
 
 ## **Atividades desenvolvidas**
-1. Soma com dinheiro
-2. Conversão de unidade
-3. Seleção de unidade
-4. - [x] [Figuras geométricas](https://testpiths.netlify.app/figuras_geometricas/) ✅
-5. Horário no relógio
-6. Sólido geométrico
-7. Ajuste no relógio
-8. Subtração
-9. Divisões e quocientes
-10. Complete o cálculo
-11. Análise de gráficos
+1. - [ ] Soma com dinheiro
+2. - [ ] Conversão de unidade
+3. - [ ] Seleção de unidade
+4. - [x] [Figuras geométricas](https://testpiths.netlify.app/figuras_geometricas/)
+5. - [ ] Horário no relógio
+6. - [ ] Sólido geométrico
+7. - [ ] Ajuste no relógio
+8. - [ ] Subtração
+9. - [ ] Divisões e quocientes
+10. - [ ] Complete o cálculo
+11. - [ ] Análise de gráficos
