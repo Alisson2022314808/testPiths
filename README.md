@@ -14,7 +14,7 @@ Criado pela colega [Gabrieli Lais Zwirtes](https://www.instagram.com/gabrielilzw
 1. Soma com dinheiro
 2. Conversão de unidade
 3. Seleção de unidade
-4. [Figuras geométricas](https://testpiths.netlify.app/figuras_geometricas/) ✅
+4. - [x] [Figuras geométricas](https://testpiths.netlify.app/figuras_geometricas/) ✅
 5. Horário no relógio
 6. Sólido geométrico
 7. Ajuste no relógio
