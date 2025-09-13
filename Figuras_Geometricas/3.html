@@ -36,30 +36,24 @@
     <body dir="ltr" itemscope itemtype="http://schema.org/WebPage" id="yDmH0d" css="yDmH0d">
         <div class="container-fluid p-5">
             <div class="row">
-                <!--Botão de voltar-->
                 <div class="col-12">
                     <a href="https://smesantoaugusto.site/piths/piths/questoesSemLogin.php">
                         <button type="button" class="btn btn-lg" title="Voltar"><i class="bi bi-arrow-left"></i></button>
                     </a>
                 </div>
-                <!--Barra de progresso-->
                 <div class="col-12 mt-3">
-                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+                    <div class="progress" role="progressbar" title="Barra de progresso" aria-label="Barra de progresso" aria-valuenow="calc(100 / 12)" aria-valuemin="0"
                         aria-valuemax="100">
-                        <div class="progress-bar" style="width: calc(200% / 12)"></div>
+                        <div class="progress-bar" style="width: calc(100% / 12);"></div>
                     </div>
                 </div>
-                <!--Título da questão:-->
                 <div class="col-12 m-2">
                     <h1>QUAL O NOME DESTA FIGURA GEOMÉTRICA?</h1>
                 </div>
-                <!--Estrutura da questão-->
                 <div class="col-12 d-md-flex justify-content-center">
                     <div class="card">
                         <div class="card-body text-center">
-                            <!--IMAGEM DA QUESTÃO-->
                             <img src="./imagens/figura_3.svg" width="350vw">
-                            <!--FIM DA IMAGEM DA QUESTÃO-->
                         </div>
                     </div>
                 </div>
@@ -67,11 +61,9 @@
                 <div class="col-12 mt-3 d-flex justify-content-center">
                     <div class="text-center">
                         <div class="mb-3">
-                            <!--BOTÕES COM AS OPÇÕES-->
                             <button class="btn btn-lg btn-success" type="submit" onclick="figuraCorreta(this.value)" name="figura" id="figura" value="retângulo" title="retângulo" aria-label="retângulo" required>RETÂNGULO</button>
                             <button class="btn btn-lg btn-success" type="submit" onclick="figuraCorreta(this.value)" name="figura" id="figura" value="círculo" title="círculo" aria-label="círculo" required>CÍRCULO</button>
                             <button class="btn btn-lg btn-success" type="submit" onclick="figuraCorreta(this.value)" name="figura" id="figura" value="quadrado" title="quadrado" aria-label="quadrado" required>QUADRADO</button>
-                            <!--FIM DOS BOTÕES COM AS OPÇÕES-->
                         </div>
                     </div>
                 </div>
@@ -79,8 +71,20 @@
         </div>
 
         <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const b = document.querySelector('.progress');
+                const bar = document.querySelector('.progress-bar');
+                if (!bar) return;
+                const target = 200 / 12;
+                bar.style.transition = 'width 0.25s ease-in-out';
+                setTimeout(() => {
+                    b.setAttribute('aria-valuenow', String(target));
+                    bar.style.width = target + '%';
+                }, 50);
+            });
+        </script>
+        <script>
             function figuraCorreta(figura) {
-
                 if(figura != "retângulo") {
                     document.getElementById('mensagem').innerHTML = "Resposta incorreta!";
                 } else {
@@ -94,5 +98,4 @@
         <script src="https://www.gstatic.com/_/atari/_/js/k=atari.vw.pt_BR.xWPFkpOF8pY.O/am=AMAABA/d=1/rs=AGEqA5kTtLdcx7yqsFEUqhFNCOAUhpDsYA/m=view" id="base-js" nonce="KZdtUFbj-27SP0LYqjEJwQ"></script>
 
     </body>
-
 </html>
