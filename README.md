@@ -8,7 +8,7 @@ Piths é um software livre para ensino de Matemática Básica, desenvolvido pela
 * **Logotipo**: criado pela colega [Gabrieli Lais Zwirtes](https://www.instagram.com/gabrielilzwirtes) (formada em TI pelo [IFFar – *Campus* Santo Augusto](https://iffar.edu.br/santo-augusto), e atualmente cursando Direito na [PUCRS](https://portal.pucrs.br)).
 <p align="center"><img src="https://smesantoaugusto.site/piths/piths/assets/img/piths.png" width="128" alt="Logotipo do Piths" title="Piths" aria-label="Logotipo do Piths"></p>
 A escolha do logotipo do projeto ser um "porco ciborgue" foi concebida pelos alunos do próprio curso: os elementos robóticos remetem à área da informática, enquanto o porco tem um significado mais histórico no curso, sendo desde 2016 o mascote do mesmo (acidental, devido ao meme do "porco Rodolfo", que estava famoso na época).
-* **Nome "Piths"**: combinação das palavras em inglês "Maths" (abreviação de "Mathematics"), e "Pig".
+O nome "Piths" resulta da combinação das palavras em inglês "Maths" (abreviação de "Mathematics"), e "Pig".
 
 ## **Principais ferramentas empregadas**
 * *HTML5* para a estrutura das páginas Web
