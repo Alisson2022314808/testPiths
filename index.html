@@ -104,8 +104,11 @@
         <script>
             function currentYear() {
                 const year = new Date().getFullYear();
-                return year !== 2025 ? `-${year}` : ``;
+                return year !== 2025 ? `-${year}` : '';
             }
+            document.addEventListener("DOMContentLoaded", function() {
+                document.getElementById("currentYear").textContent = currentYear();
+            });
         </script>
 
     </body>
